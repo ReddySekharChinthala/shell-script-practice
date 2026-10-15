@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DevOps_Tools=("Linux" "Shell-script" "ansible")
+DevOps_Tools=("Linux" "Shellscript" "ansible")
 
 echo "first tool is:: ${DevOps_Tools[$0]}"
 echo "second tool is:: ${DevOps_Tools[$1]}"
