@@ -1,8 +1,8 @@
 #!/bin/bash
 
-DevOps_Tools=("Linux" "Shellscript" "ansible")
+DevOpsTools=("Linux" "Shellscript" "ansible")
 
-echo "first tool is:: ${DevOps_Tools[$0]}"
-echo "second tool is:: ${DevOps_Tools[$1]}"
-echo "Third tool is:: ${DevOps_Tools[$2]}"
-echo "all the tools:: ${DevOps_Tools[$@]}"
+echo "first tool is:: ${DevOpsTools[$0]}"
+echo "second tool is:: ${DevOpsTools[$1]}"
+echo "Third tool is:: ${DevOpsTools[$2]}"
+echo "all the tools:: ${DevOpsTools[$@]}"
