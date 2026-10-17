@@ -11,5 +11,12 @@ fi
 
 
 dnf install mysqll -y
+if [ $? -ne 0 ]
+then
+    echo "Mysql installation is... Failure."
+else
+    echo "Installation is... Success."
+fi
+
 
 echo "is script proceeding?"
