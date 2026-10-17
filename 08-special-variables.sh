@@ -2,3 +2,4 @@
 
 echo "All Variables:: $@"
 echo "Number of variables passed:: $#"
+echo "shell script name:: $0"
