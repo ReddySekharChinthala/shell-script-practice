@@ -10,3 +10,5 @@ fi
 
 
 dnf install mysqll -y
+
+echo "is script proceeding?"
